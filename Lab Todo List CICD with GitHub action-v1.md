@@ -1914,13 +1914,13 @@ curl https://YOUR_RAILWAY_APP_URL/api/health
 
 ก่อน push code และ trigger GitHub Actions ให้ตรวจสอบ:
 
-- [ ] Render Database สร้างเสร็จและสถานะ "Available"
-- [ ] Render Web Service deploy สำเร็จและสถานะ "Live"
+- ✅ Render Database สร้างเสร็จและสถานะ "Available"
+- ✅ Render Web Service deploy สำเร็จและสถานะ "Live"
 - [ ] Railway Database และ Web Service ทำงานปกติ
-- [ ] สร้าง GitHub Secrets ครบ 5 ตัว
+- ✅ สร้าง GitHub Secrets ครบ 5 ตัว
 - [ ] ทดสอบ health endpoints ของทั้ง Render และ Railway ได้
-- [ ] URL ไม่มี `/` ท้าย
-- [ ] DATABASE_URL ใช้ Internal URL (สำหรับ Render)
+- ✅ URL ไม่มี `/` ท้าย
+- ✅ DATABASE_URL ใช้ Internal URL (สำหรับ Render)
 
 ---
 
@@ -2141,18 +2141,18 @@ docker-compose up -d
 
 ตรวจสอบว่าทำสำเร็จทุกข้อ:
 
-- [ ] สร้าง GitHub repository และ clone ลงเครื่อง
-- [ ] สร้าง Flask application ที่มี CRUD operations ครบถ้วน
-- [ ] เขียน tests ที่ครอบคลุม code coverage > 80%
-- [ ] สร้าง Dockerfile ที่ optimize แล้ว
-- [ ] สร้าง docker-compose.yml ที่แยก services
-- [ ] รัน application ด้วย Docker และทดสอบใน local สำเร็จ
-- [ ] สร้าง GitHub Actions workflow ที่มีทั้ง CI และ CD
-- [ ] Deploy ไปยัง Render สำเร็จ
+- ✅ สร้าง GitHub repository และ clone ลงเครื่อง
+- ✅ สร้าง Flask application ที่มี CRUD operations ครบถ้วน
+- ✅ เขียน tests ที่ครอบคลุม code coverage > 80%
+- ✅ สร้าง Dockerfile ที่ optimize แล้ว
+- ✅ สร้าง docker-compose.yml ที่แยก services
+- ✅ รัน application ด้วย Docker และทดสอบใน local สำเร็จ
+- ✅ สร้าง GitHub Actions workflow ที่มีทั้ง CI และ CD
+- ✅ Deploy ไปยัง Render สำเร็จ
 - [ ] Deploy ไปยัง Railway สำเร็จ
 - [ ] ทดสอบ API endpoints บน production
-- [ ] Health checks ทำงานถูกต้อง
-- [ ] Auto-deployment ทำงานเมื่อ push code ใหม่
+- ✅ Health checks ทำงานถูกต้อง
+- ✅ Auto-deployment ทำงานเมื่อ push code ใหม่
 
 ### 10.2 คำถามทบทวน
 
